@@ -1,0 +1,20 @@
+.rank {
+    @include rank-img;
+}
+
+.own-images {
+    .figure-1 {
+        &:hover {
+            z-index: 10;
+            transition: all .5s ease;
+        }
+    }
+
+    .figure-2 {
+        &:hover {
+            z-index: 10;
+            transition: all .5s ease;
+        }
+    }
+
+}

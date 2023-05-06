@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.own-navbar {
+  width: 80vw;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid black;
+}
+.own-navbar li {
+  border-bottom: 3px solid transparent;
+  border-radius: 2px;
+}
+.own-navbar li:hover {
+  border-bottom: 3px solid black;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("/images/hero.png");
+  background-position: center;
+}
+.hero h1 {
+  font-size: 70px;
+  color: white;
+}
+.hero p {
+  width: 400px;
+  font-size: 20px;
+  color: white;
+}
+.hero .div-flu {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 9vw;
+  height: 100vh;
+}
+.hero .div-flu .icons {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.second-sec-content p {
+  text-align: justify;
+}
+
+.third-sec-left {
+  margin-top: 100px !important;
+}
+.third-sec-left p {
+  text-indent: 15px;
+  text-align: justify;
+}
+.third-sec-right {
+  margin-top: 100px !important;
+}
+
+.rank {
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.own-images .figure-1:hover {
+  z-index: 10;
+  transition: all 0.5s ease;
+}
+.own-images .figure-2:hover {
+  z-index: 10;
+  transition: all 0.5s ease;
+}/*# sourceMappingURL=main.css.map */
